@@ -1,0 +1,21 @@
+.searchList {
+    background-color: var(--light-dark-color);
+    max-height: 500px;
+    overflow-y: scroll;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 10;
+  }
+  
+  .searchListItem {
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--dark-color);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+  }
+  
+  .searchListItem:hover {
+    background-color: #1f1f1f;
+  }
