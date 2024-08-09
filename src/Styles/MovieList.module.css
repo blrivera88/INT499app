@@ -1,0 +1,18 @@
+/* MovieList.module.css */
+.searchList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.searchListItem {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 150px;
+}
+
+.moviePoster {
+  max-width: 100%;
+  height: auto;
+}
