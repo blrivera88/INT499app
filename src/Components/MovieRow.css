@@ -1,0 +1,54 @@
+.movie-row {
+    margin: 20px 0;
+  }
+  
+  .movie-row-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .movie-row-posters {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px 0;
+  }
+  
+  .movie-poster {
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .movie-poster img {
+    width: 150px;
+    height: 225px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .movie-poster img:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-poster-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .movie-poster:hover .movie-poster-overlay {
+    opacity: 1;
+  }
+  
+  .movie-poster-overlay button {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
