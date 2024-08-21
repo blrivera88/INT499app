@@ -1,0 +1,35 @@
+.stream-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stream-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .stream-list button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .stream-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stream-list form {
+    margin-bottom: 20px;
+  }
+  
+  
