@@ -1,0 +1,81 @@
+.navigation-menu {
+  background-color: #1c1c1c;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-logo .logo {
+  width: 100px; /* Adjust this size based on your logo */
+  height: auto;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  margin: 0 15px;
+}
+
+.menu-item a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu-item a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .navigation-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .menu-item {
+    margin: 10px 0;
+  }
+
+  .menu-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+.login-section {
+  margin-left: auto; /* Pushes the login button to the right side */
+}
+
+.google-login-button {
+  padding: 10px 20px;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-login-button:hover {
+  background-color: #357ae8;
+}
+

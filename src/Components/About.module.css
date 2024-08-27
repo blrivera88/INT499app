@@ -1,0 +1,114 @@
+/* Styles/components/About.module.css */
+
+.aboutContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+  }
+  
+  .heroSection {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .heroContent {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.5rem;
+  }
+  
+  /* Overview Section */
+  .overviewSection {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .sectionContent {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Team Section */
+  .teamSection {
+    padding: 60px 0;
+  }
+  
+  .teamGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .teamMember {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .teamImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+  
+  .teamName {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  .teamRole {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+  }
+  
+  /* Call to Action Section */
+  .callToActionSection {
+    padding: 60px 0;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  
+  .ctaButton {
+    padding: 15px 30px;
+    background-color: black;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: rgba(0, 0, 0, 0.774);
+    color: var(--primary-color);
+  }

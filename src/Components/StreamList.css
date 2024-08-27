@@ -1,0 +1,131 @@
+/* StreamList styles */
+.stream-list {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 300px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+  }
+  
+  .clear-button {
+    position: absolute;
+    right: 110px;
+    background: none;
+    border: none;
+    color: #aaa;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .clear-button:hover {
+    color: #007bff;
+  }
+  
+  .submit-button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading {
+    margin-top: 20px;
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  .suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+  }
+  
+  .suggestions li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .user-events ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .user-events li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-events img {
+    margin-right: 10px;
+  }
+  
+  .user-events button {
+    margin-left: auto;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-events button:hover {
+    background-color: #0056b3;
+  }
+  

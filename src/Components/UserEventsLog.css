@@ -1,0 +1,120 @@
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the modal is on top of other elements */
+  }
+  
+  .modalContent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Allows scrolling if content is too long */
+  }
+  
+  .modalClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333; /* Better visibility for close button */
+  }
+  
+  .modalClose:hover {
+    color: #f00; /* Changes color on hover to indicate it's clickable */
+  }
+  
+  .modalHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .modalHeader h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .modalBody {
+    margin-top: 10px;
+  }
+  
+  .modalBody h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .modalBody p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .modalBody img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 8px;
+  }
+  
+  .modalFooter {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .modalFooter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modalFooter button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .modalContent {
+      padding: 15px;
+    }
+  
+    .modalClose {
+      top: 5px;
+      right: 5px;
+    }
+  
+    .modalHeader h2 {
+      font-size: 20px;
+    }
+  
+    .modalBody h3 {
+      font-size: 16px;
+    }
+  
+    .modalBody p {
+      font-size: 14px;
+    }
+  
+    .modalFooter button {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
